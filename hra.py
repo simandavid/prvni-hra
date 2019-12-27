@@ -11,6 +11,10 @@ jmeno = "David"
 jmeno2 = "Davide"
 
 
+
+
+
+
 # nacteni mapy
 mapa = "prvni.mapa"
 f=open(mapa, "r")

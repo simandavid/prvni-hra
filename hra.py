@@ -6,8 +6,6 @@ import os
 import time
 
 
-
-
 # definice jmena hrace
 jmeno = "David"
 jmeno2 = "Davide"

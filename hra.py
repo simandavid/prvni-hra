@@ -5,6 +5,15 @@
 import msvcrt
 import os
 import time
+from array import *
+
+mapa = []
+
+for i in range(5):
+    temp = []
+    for j in range(5):
+        temp.append(0)
+    mapa.append(temp)
 
 
 # definice jmena hrace, pozdeji se bude ptat
@@ -13,12 +22,13 @@ jmeno2 = "Davide"
 
 
 # nacteni mapy (mapa a pozice by se mela nacist automaticky z posledni hry)
-mapa = "prvni.mapa"
-f=open(mapa, "r", encoding="utf-8")
+nazevmapy = "prvni.mapa"
+f=open(nazevmapy, "r", encoding="utf-8")
 if f.mode == 'r':
     f1=f.readlines()
     for a in f1:
         print(a)
+        mapa[1][1]="aaaaa"
 f.close()
 time.sleep(2)
 
@@ -32,12 +42,14 @@ y = 1 # svisla osa
 while True:
     os.system('cls')
     f = open(jmeno,"w+")
-    f.write("y = %d\r\n" % y)
     f.write("x = %d\r\n" % x)
+    f.write("y = %d\r\n" % y)
     f.close()
     print("\033[44mTextová hra VLÁDCE HULIXONU\033[0m \033[43m(c) 2019 DaMiSi\033[0m")
     print()
     print(jmeno2, ", nacházíš se na", x, y)
+    print()
+    print(mapa[x][y])
     print()
     print("\033[93mMužeš jít na \033[4mS\033[0m\033[93ever, \033[4mV\033[0m\033[93ýchod, \033[4mZ\033[0m\033[93ápad, \033[4mJ\033[0m\033[93ih a můžeš se\033[4mB\033[0m\033[93rat předmět nebo u\033[4mK\033[0m\033[93ončit hru.\033[0m")
     print()

@@ -1,14 +1,2 @@
-pkde = v lese
-pnazevbez = na volném prostranství
-m       x              xxxx                    ;
-m       x                                      ;
-m        x                     xxxx            ;
-m                            xxx               ;
-m                                              ;
-m                    x                         ;
-m                    x                         ;
-m                    x                         ;
-m                    x                         ;
-m                                              ;
-ppole[1][1] = u vstupu do lesa. Tady je začátek hry. Les je veliký, neboj se ho. Jdi hlouběji a hledej.
-ppole[1][2] = na malé mýtině, něco tu leží v trávě.
+# x;y;popis mistnosti;predmet_id_normlani;akce;predmet_id_po_akci;
+1;1;Vstupní hala. Tady začíná naše hra. Na podlaze je koberec, na stěně věšák a na východní straně dveře někam.;0;0;0;

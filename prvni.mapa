@@ -1,2 +1,9 @@
 # x;y;popis mistnosti;predmet_id_normlani;akce;predmet_id_po_akci;
-1;1;Vstupní hala. Tady začíná naše hra. Na podlaze je koberec, na stěně věšák a na východní straně dveře někam.;0;0;0;
+1;1;Vstupní hala. Na podlaze je koberec, na stěně věšák a na východní straně dveře někam a na západní dveře ven.;0;0;0;
+2;1;Šatna. Na bočních stěnách jsou skříňky, jedna je odemčenáa je v ní predmet, na východní a západní straně dveře.;0;0;0;
+3;1;Chodba. Na stěnácj jsou výkresy žáků, na jížní, západní a východní straně dveře.;0;0;0;
+4;1;Uklidová místnost. Je tam skříň. Na východní a západní straně dveře.;0;0;0;
+5;1;Sklad. Na podlaze se válí několik beden s harampádím a na západní straně dveře.;0;0;0;
+1;2;Kabinet přírodpisu. Je zde velký stůl, modle kostry a staré učebnice, na východní straně dveře.;0;0;0;
+2;2;Učebna přírodpisu. Po celé učebně jsou lavice, na zdi visí různé pomůcky na přirodopis, na východní a západní straně dveře.;0;0;0;
+3;2;Chodba. na zdi visí plánek školy, na všech stranách dveře.;0;0;0;

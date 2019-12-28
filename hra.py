@@ -52,7 +52,7 @@ while True:
     print(jmeno2,",")
     print(mapa[x][y])
     print()
-    print("\033[93mMužeš jít na \033[4mS\033[0m\033[93ever, \033[4mV\033[0m\033[93ýchod, \033[4mZ\033[0m\033[93ápad, \033[4mJ\033[0m\033[93ih a můžeš se\033[4mB\033[0m\033[93rat předmět nebo u\033[4mK\033[0m\033[93ončit hru.\033[0m")
+    print("Mužeš jít na Sever, Východ, Západ, Jih a můžeš seBrat předmět nebo uKončit hru.")
     print()
     print("Co teď uděláš? \033[90m(stiskni příslušnou klávesu)\033[0m")
 

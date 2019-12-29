@@ -7,6 +7,7 @@ import msvcrt
 import os
 import time
 from array import *
+import winsound
 
 
 
@@ -36,6 +37,12 @@ def co_mam_u_sebe():
     print("U sebe nemáš právě teď nic. Prázdné kapsy kámo.")
     return
 
+
+def beep(frequency = 1500, duration = 500):
+    winsound.Beep(frequency, duration)
+
+
+beep()
 
 # definice jmena hrace, pozdeji se bude ptat
 jmeno = "David"
@@ -111,5 +118,6 @@ while True:
         x = x
 
     if input_char.upper() == 'K':
+        beep(500,500)
         print("Konec hry ...")
         exit()

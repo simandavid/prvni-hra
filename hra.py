@@ -87,7 +87,7 @@ while True:
     zapis_stavu_do_souboru(x,y,jmeno,jmeno2)
     hlavicka_hry()
     print()
-    print(jmeno2,",")
+    print(jmeno2,",", sep = '')
     print(mapa[x][y])
     print()
     co_mam_u_sebe()
@@ -102,6 +102,8 @@ while True:
         y = y - 1
         if y < 1:
             y = 1
+        if y > radkuasloupcu:
+            y = radkuasloupcu
 
     if input_char.upper() == 'J':
         y = y + 1
